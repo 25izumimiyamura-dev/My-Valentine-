@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.title span {
+  color: #8cff66;
+}
+
+.card {
+  background: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.question {
+  font-size: 20px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#yes-button {
+  background: #ff2f6e;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#no-button {
+  background: #ddd;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
